@@ -1,0 +1,17 @@
+
+.presentation {
+    background-color: $grey;
+    padding: 20px 10px 60px 10px;
+    text-align: center;
+    &__slogan {
+        margin: 20px 0px;
+        & > h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+    }
+    &__text {
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
