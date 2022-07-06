@@ -6,4 +6,17 @@ body {
   font-family: "Roboto", "sans-serif";
 }
 
+.header {
+  box-shadow: 0px 1px 5px rgb(167, 164, 164);
+  padding: 20px 0px 10px 0px;
+  z-index: 1;
+  position: relative;
+}
+.header__logo {
+  text-align: center;
+}
+.header__logo img {
+  width: 160px;
+}
+
 /*# sourceMappingURL=style.css.map */
