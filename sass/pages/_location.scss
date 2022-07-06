@@ -1,0 +1,10 @@
+.location {
+    background-color: $grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__text {
+        margin-left: 15px;
+        font-weight: 500;
+    }
+}
