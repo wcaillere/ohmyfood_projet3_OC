@@ -1,0 +1,10 @@
+.restaurants {
+    padding: 5px 0px;
+    background-color: $light-grey;
+    &__title {
+        @include section-width;
+    }
+    &__content {
+        @include section-width;
+    }
+}
