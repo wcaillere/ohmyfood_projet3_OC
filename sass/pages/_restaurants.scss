@@ -6,5 +6,7 @@
     }
     &__content {
         @include section-width;
+        display: flex;
+        flex-direction: column;
     }
 }

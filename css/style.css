@@ -120,6 +120,8 @@ body {
 .restaurants__content {
   width: 90%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-restaurant {
@@ -127,6 +129,7 @@ body {
   overflow: hidden;
   background-color: white;
   margin-bottom: 20px;
+  box-shadow: 2px 5px 8px rgb(218, 218, 218);
 }
 .card-restaurant__img {
   height: 190px;
