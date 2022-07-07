@@ -1,0 +1,31 @@
+.footer {
+    background-color: darken($dark-grey, 8%);
+    padding: 5px 0px 25px 0px;
+    &__logo {
+        @include section-width;
+        color: white;
+        font-family: $typo-title;
+        font-size: 18px;
+    }
+    &__menu {
+        @include section-width;
+        padding: 0;
+        list-style-type: none;
+        color: white;
+        &__item {
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+            margin-bottom: 10px;
+            &__icon {
+                margin-right: 5px;
+                font-size: 12px;
+                width: 15px;
+            }
+            & a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+    }

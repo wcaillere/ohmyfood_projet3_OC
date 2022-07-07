@@ -19,6 +19,40 @@ body {
   width: 160px;
 }
 
+.footer {
+  background-color: #303030;
+  padding: 5px 0px 25px 0px;
+}
+.footer__logo {
+  width: 90%;
+  margin: auto;
+  color: white;
+  font-family: "Shrikhand", "serif";
+  font-size: 18px;
+}
+.footer__menu {
+  width: 90%;
+  margin: auto;
+  padding: 0;
+  list-style-type: none;
+  color: white;
+}
+.footer__menu__item {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.footer__menu__item__icon {
+  margin-right: 5px;
+  font-size: 12px;
+  width: 15px;
+}
+.footer__menu__item a {
+  text-decoration: none;
+  color: white;
+}
+
 .btn {
   background: linear-gradient(170deg, #FF79DA, #9356DC);
   color: white;
