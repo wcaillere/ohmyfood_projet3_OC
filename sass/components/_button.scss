@@ -7,9 +7,9 @@
     border: 0px;
     border-radius: 30px;
     box-shadow: 2px 5px 10px rgb(185, 185, 185);
-    transition: 0.3s;
+    transition: all 0.3s;
     &:hover {
-        opacity: 0.8;
+        filter: brightness(105%);
         box-shadow: 2px 5px 10px rgb(105, 105, 105);
     }
 }
