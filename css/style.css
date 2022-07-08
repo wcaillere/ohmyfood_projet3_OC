@@ -88,6 +88,9 @@ body {
   font-size: 30px;
   margin-right: 15px;
 }
+.like-button--menu-page {
+  background-color: #F2F2F2;
+}
 
 .location {
   background-color: rgb(230, 230, 230);
@@ -241,6 +244,23 @@ body {
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+
+.menu-content {
+  background-color: #F2F2F2;
+  padding: 10px 0px;
+  border-radius: 40px 40px 0px 0px;
+  position: relative;
+  margin-top: -50px;
+  z-index: 2;
+}
+.menu-content__head {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  font-family: "Shrikhand", "serif";
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=style.css.map */
