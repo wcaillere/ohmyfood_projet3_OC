@@ -22,6 +22,16 @@ body {
 .header__logo img {
   width: 160px;
 }
+.header__return {
+  background-color: white;
+  border: 0;
+  font-size: 22px;
+  position: absolute;
+  left: 20px;
+}
+.header__return a {
+  color: black;
+}
 
 .footer {
   background-color: #303030;
@@ -175,7 +185,11 @@ body {
   background-color: white;
   position: relative;
   margin-bottom: 20px;
-  box-shadow: 2px 5px 8px rgb(218, 218, 218);
+  box-shadow: 4px 6px 8px rgb(218, 218, 218);
+  transition: all 0.3s;
+}
+.card-restaurant:hover {
+  box-shadow: 4px 6px 8px rgb(175, 175, 175);
 }
 .card-restaurant__new {
   position: absolute;

@@ -9,4 +9,14 @@
             width: 160px;
         }
     }
+    &__return {
+        background-color: white;
+        border: 0;
+        font-size: 22px;
+        position: absolute;
+        left: 20px;
+        & a {
+            color: black;
+        }
+    }
 }
