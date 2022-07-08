@@ -262,5 +262,12 @@ body {
   font-family: "Shrikhand", "serif";
   font-size: 14px;
 }
+.menu-content__head h1 {
+  font-weight: 300;
+}
+.menu-content__body {
+  width: 90%;
+  margin: auto;
+}
 
 /*# sourceMappingURL=style.css.map */

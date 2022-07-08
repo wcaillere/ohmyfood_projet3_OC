@@ -11,5 +11,11 @@
         @include section-width;
         font-family: $typo-title;
         font-size: 14px;
+        & h1 {
+            font-weight: 300;
+        }
+    }
+    &__body {
+        @include section-width;
     }
 }
