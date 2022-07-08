@@ -2,8 +2,20 @@
     border-radius: 20px;
     overflow: hidden;
     background-color: white;
+    position: relative;
     margin-bottom: 20px;
     box-shadow: 2px 5px 8px rgb(218, 218, 218);
+    &__new {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: darken( $color-tertiary, 45%);
+        background-color: $color-tertiary;
+        padding: 6px 12px;
+        border-radius: 3px;
+        font-size: 15px;
+        font-weight: 500;
+    }
     &__img {
         height: 190px;
         & img {
