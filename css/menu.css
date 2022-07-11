@@ -1,0 +1,117 @@
+.menu-img {
+  position: relative;
+  z-index: 1;
+  height: 280px;
+}
+.menu-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.menu-content {
+  background-color: #F2F2F2;
+  padding: 10px 0px;
+  border-radius: 40px 40px 0px 0px;
+  position: relative;
+  margin-top: -50px;
+  z-index: 2;
+}
+.menu-content__head {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  font-family: "Shrikhand", "serif";
+  font-size: 14px;
+  margin: 20px auto 35px auto;
+}
+.menu-content__head h1 {
+  font-weight: 300;
+  margin: 0;
+}
+.menu-content__body {
+  width: 90%;
+  margin: auto;
+}
+
+.menu-step {
+  margin-bottom: 30px;
+}
+.menu-step__title > h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 5px 0px;
+}
+.menu-step__separator {
+  height: 3px;
+  width: 40px;
+  margin-bottom: 15px;
+  display: block;
+  background-color: #99E2D0;
+}
+.menu-step__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.course {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 4px 6px 8px rgb(218, 218, 218);
+  margin-bottom: 15px;
+}
+.course:hover .course__validation {
+  width: 75px;
+}
+.course:hover .course__validation i {
+  animation: check-validation-course 0.5s;
+}
+.course__content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 10px;
+}
+.course__content__text__title > h3 {
+  margin: 5px 0px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.course__content__text__precision > p {
+  margin: 5px 0px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.course__content__price {
+  display: flex;
+  align-items: flex-end;
+  margin: 0px 8px;
+}
+.course__content__price > p {
+  margin: 5px 0px;
+  font-weight: 500;
+  font-size: 15px;
+}
+.course__validation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #99E2D0;
+  color: white;
+  font-size: 24px;
+  width: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.command {
+  background-color: #F2F2F2;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+/*# sourceMappingURL=menu.css.map */
