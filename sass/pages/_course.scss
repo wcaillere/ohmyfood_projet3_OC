@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    position: relative;
     padding: 8px 10px;
     border-radius: 12px;
     box-shadow: 4px 6px 8px rgb(218, 218, 218);
@@ -23,12 +22,9 @@
     &__price {
         display: flex;
         align-items: flex-end;
-        position: absolute;
-        bottom: 13px;
-        right: 5px;
         margin-right: 10px;
         & > p {
-            margin: 0;
+            margin: 5px 0px;
             font-weight: 500;
             font-size: 15px;
         }
