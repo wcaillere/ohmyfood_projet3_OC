@@ -82,7 +82,7 @@ body {
   margin: 0;
 }
 .btn:hover {
-  filter: brightness(105%);
+  filter: brightness(108%);
   box-shadow: 2px 5px 10px rgb(105, 105, 105);
 }
 
@@ -303,32 +303,45 @@ body {
 .course {
   background-color: white;
   display: flex;
-  justify-content: space-between;
   width: 100%;
-  padding: 8px 10px;
+  overflow: hidden;
   border-radius: 12px;
   box-shadow: 4px 6px 8px rgb(218, 218, 218);
   margin-bottom: 15px;
 }
-.course__text__title > h3 {
+.course:hover .course__validation {
+  width: 75px;
+}
+.course__content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 10px;
+}
+.course__content__text__title > h3 {
   margin: 5px 0px;
   font-weight: 500;
   font-size: 18px;
 }
-.course__text__precision > p {
+.course__content__text__precision > p {
   margin: 5px 0px;
   font-weight: 400;
   font-size: 14px;
 }
-.course__price {
+.course__content__price {
   display: flex;
   align-items: flex-end;
   margin: 0px 8px;
 }
-.course__price > p {
+.course__content__price > p {
   margin: 5px 0px;
   font-weight: 500;
   font-size: 15px;
+}
+.course__validation {
+  background-color: #99E2D0;
+  width: 0;
+  transition: all 0.5s ease-in-out;
 }
 
 .command {
