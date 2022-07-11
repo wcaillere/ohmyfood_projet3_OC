@@ -1,0 +1,29 @@
+.course {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 15px;
+    box-shadow: 4px 6px 8px rgb(218, 218, 218);
+    &__text {
+        &__title > h3 {
+            margin: 5px 0px;
+            font-weight: 500;
+        }
+        &__precision > p {
+            margin: 5px 0px;
+            font-weight: 400;
+            font-size: 15px;
+        }
+    }
+    &__price {
+        display: flex;
+        align-items: flex-end;
+        margin-right: 14px;
+        & > p {
+            margin: 5px 0px;
+            font-weight: 500;
+        }
+    }
+}
