@@ -272,6 +272,9 @@ body {
   margin: auto;
 }
 
+.menu-step {
+  margin-bottom: 30px;
+}
 .menu-step__title > h2 {
   text-transform: uppercase;
   font-size: 18px;
