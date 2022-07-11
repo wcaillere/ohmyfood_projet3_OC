@@ -1,0 +1,9 @@
+// Animation de l'icon "check" du choix d'un plat
+@keyframes check-validation-course {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

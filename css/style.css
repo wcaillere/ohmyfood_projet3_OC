@@ -1,3 +1,11 @@
+@keyframes check-validation-course {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 * {
   box-sizing: border-box;
 }
@@ -312,6 +320,9 @@ body {
 .course:hover .course__validation {
   width: 75px;
 }
+.course:hover .course__validation i {
+  animation: check-validation-course 0.5s;
+}
 .course__content {
   width: 100%;
   display: flex;
@@ -339,7 +350,12 @@ body {
   font-size: 15px;
 }
 .course__validation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #99E2D0;
+  color: white;
+  font-size: 24px;
   width: 0;
   transition: all 0.5s ease-in-out;
 }
