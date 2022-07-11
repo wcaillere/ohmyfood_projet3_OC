@@ -77,6 +77,10 @@ body {
   box-shadow: 2px 5px 10px rgb(185, 185, 185);
   transition: all 0.3s;
 }
+.btn--command {
+  padding: 15px 50px;
+  margin: 0;
+}
 .btn:hover {
   filter: brightness(105%);
   box-shadow: 2px 5px 10px rgb(105, 105, 105);
@@ -319,12 +323,18 @@ body {
 .course__price {
   display: flex;
   align-items: flex-end;
-  margin-right: 10px;
+  margin: 0px 8px;
 }
 .course__price > p {
   margin: 5px 0px;
   font-weight: 500;
   font-size: 15px;
+}
+
+.command {
+  background-color: #F2F2F2;
+  text-align: center;
+  padding-bottom: 80px;
 }
 
 /*# sourceMappingURL=style.css.map */

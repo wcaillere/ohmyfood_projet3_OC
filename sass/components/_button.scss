@@ -8,6 +8,10 @@
     border-radius: 30px;
     box-shadow: 2px 5px 10px rgb(185, 185, 185);
     transition: all 0.3s;
+    &--command {
+        padding: 15px 50px;
+        margin: 0;
+    }
     &:hover {
         filter: brightness(105%);
         box-shadow: 2px 5px 10px rgb(105, 105, 105);
