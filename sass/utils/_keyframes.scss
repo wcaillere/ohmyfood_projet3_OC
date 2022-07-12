@@ -31,13 +31,15 @@
 
 @keyframes object-visibility {
     90% {
-        opacity: 0.9;
+        background: rgba(255, 255, 255, 0.9);
     }
     100% {
         visibility: hidden;
-        opacity: 0;
+        background: rgba(255, 255, 255, 0);
     }
 }
+
+// enlever opacity et mettre bagroung rgba + vérifier backward à la place
 
 @keyframes liked {
     0% {
@@ -47,5 +49,16 @@
     100% {
         transform: scale(1.08);
         opacity: 1;
+    }
+}
+
+@keyframes approach {
+    0% {
+        opacity: 0;
+        transform: translateY(35px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
