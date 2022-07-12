@@ -29,12 +29,23 @@
     }
 }
 
-@keyframes spinner-visibility {
+@keyframes object-visibility {
     90% {
         opacity: 0.9;
     }
     100% {
         visibility: hidden;
         opacity: 0;
+    }
+}
+
+@keyframes liked {
+    0% {
+        transform: scale(0);
+        opacity: 0.2;
+    }
+    100% {
+        transform: scale(1.08);
+        opacity: 1;
     }
 }
