@@ -86,8 +86,8 @@ body {
   position: absolute;
   left: 20px;
 }
-.header__return a {
-  color: black;
+.header__return:hover {
+  cursor: pointer;
 }
 
 .footer {

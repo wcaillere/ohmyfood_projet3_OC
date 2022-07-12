@@ -14,9 +14,11 @@
     <body>
         <!-- HEADER -->
         <header class="header">
-            <button class="header__return">
-                <a href="../index.html"><i class="fa-solid fa-arrow-left"></i></a>
-            </button>
+            <form action="../index.html">
+                <button class="header__return">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+            </form>
             <div class="header__logo">
                 <img src="../images/logo/ohmyfood.png" alt="Logo ohmyfood"/>
             </div>
@@ -24,9 +26,9 @@
         <!-- MAIN -->
         <main>
             <!-- MENU IMAGE -->
-            <section class="menu-img">
+            <div class="menu-img">
                 <img src="../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="À la française" />
-            </section>
+            </div>
             <!-- MENU CONTENT -->
             <section class="menu-content">
                 <!-- MENU CONTENT TITLE -->
@@ -216,9 +218,9 @@
                 </div>
             <!-- COMMAND BUTTON -->
             </section>
-            <section class="command">
+            <div class="command">
                 <button class="btn btn--command">Commander</button>
-            </section>
+            </div>
         </main>
         <!-- FOOTER -->
         <footer class="footer">
@@ -242,7 +244,7 @@
                     <a href="#">Mention légales</a>
                 </li>
                 <li class="footer__menu__item">
-                    <a href="#">Contact</a>
+                    <a href="mailto:email@example.com">Contact</a>
                 </li>
             </ul>
         </footer>
