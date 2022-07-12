@@ -20,16 +20,24 @@
         display: flex;
         justify-content: space-between;
         padding: 8px 10px;
+        overflow: hidden;
+        white-space: nowrap;
         &__text {
+            overflow: hidden;
+            white-space: nowrap;
             &__title > h3 {
                 margin: 5px 0px;
                 font-weight: 500;
                 font-size: 18px;
+                overflow: hidden;
+                text-overflow: ellipsis;
             }
             &__precision > p {
                 margin: 5px 0px;
                 font-weight: 400;
                 font-size: 14px;
+                overflow: hidden;
+                text-overflow: ellipsis;
             }
         }
         &__price {

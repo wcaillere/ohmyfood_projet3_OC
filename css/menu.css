@@ -76,16 +76,26 @@
   display: flex;
   justify-content: space-between;
   padding: 8px 10px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.course__content__text {
+  overflow: hidden;
+  white-space: nowrap;
 }
 .course__content__text__title > h3 {
   margin: 5px 0px;
   font-weight: 500;
   font-size: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .course__content__text__precision > p {
   margin: 5px 0px;
   font-weight: 400;
   font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .course__content__price {
   display: flex;
