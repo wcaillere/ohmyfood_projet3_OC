@@ -159,7 +159,7 @@ body {
   opacity: 0;
 }
 .heart--solid:hover {
-  animation: liked 0.6s both;
+  animation: liked 0.8s both;
 }
 
 /*# sourceMappingURL=default.css.map */
