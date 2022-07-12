@@ -21,8 +21,8 @@
         background-image: linear-gradient(170deg, $color-secondary, $color-primary,);
         background-clip: text;
         opacity: 0;
-        &:active {
-            animation: liked 0.8s both;
+        &:hover {
+            animation: liked 0.5s both;
         }
     }
 }

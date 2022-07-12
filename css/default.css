@@ -168,8 +168,8 @@ body {
   background-clip: text;
   opacity: 0;
 }
-.heart--solid:active {
-  animation: liked 0.8s both;
+.heart--solid:hover {
+  animation: liked 0.5s both;
 }
 
 /*# sourceMappingURL=default.css.map */
