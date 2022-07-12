@@ -3,6 +3,8 @@
 @import "./utils/mixins";
 
 // Page accueil
+@import "./layouts/loading-spinner";
+
 @import "./pages/location";
 
 @import "./pages/presentation";
