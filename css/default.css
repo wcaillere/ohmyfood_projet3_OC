@@ -132,6 +132,7 @@ body {
   border: 0px;
   border-radius: 30px;
   box-shadow: 2px 5px 10px rgb(185, 185, 185);
+  cursor: pointer;
   transition: all 0.3s;
 }
 .btn--command {
@@ -158,6 +159,7 @@ body {
   position: absolute;
   top: 35%;
   right: 50%;
+  cursor: pointer;
 }
 .heart--menu-page {
   top: 0%;

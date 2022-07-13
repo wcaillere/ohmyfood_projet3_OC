@@ -24,11 +24,27 @@
   background-color: rgb(230, 230, 230);
   color: rgb(68, 68, 68);
   display: flex;
+  gap: 15px;
   align-items: center;
   justify-content: center;
 }
+.location__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
 .location__text {
-  margin-left: 15px;
+  font-weight: 500;
+}
+.location__text input {
+  background-color: rgb(230, 230, 230);
+  border: 0;
+  padding: 10px 0px;
+  width: 110px;
+}
+.location__text input::placeholder {
+  color: rgb(68, 68, 68);
   font-weight: 500;
 }
 
@@ -164,6 +180,17 @@
 }
 .card-restaurant__body__text__place > p {
   margin: 0;
+}
+
+@media (min-width: 993px) {
+  .functioning__body {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .functioning__body__step {
+    flex-basis: 100%;
+  }
 }
 
 /*# sourceMappingURL=accueil.css.map */

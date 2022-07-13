@@ -2,10 +2,27 @@
     background-color: $grey;
     color: $dark-grey;
     display: flex;
+    gap: 15px;
     align-items: center;
     justify-content: center;
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+    
     &__text {
-        margin-left: 15px;
         font-weight: 500;
+    }
+    &__text input{
+        background-color: $grey;
+        border: 0;
+        padding : 10px 0px;
+        width: 110px;
+        &::placeholder {
+            color: $dark-grey;
+            font-weight: 500;
+        }
     }
 }

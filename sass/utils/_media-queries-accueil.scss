@@ -1,0 +1,10 @@
+@media (min-width: 993px) {
+    .functioning__body {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        &__step {
+            flex-basis: 100%;
+        }
+    }
+}
