@@ -171,6 +171,9 @@
   .course__content__text__precision p {
     font-size: 12px;
   }
+  .command {
+    padding-bottom: 50px;
+  }
 }
 
 /*# sourceMappingURL=menu.css.map */
