@@ -191,6 +191,14 @@
   .functioning__body__step {
     flex-basis: 100%;
   }
+  .restaurants__content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .card-restaurant {
+    width: 49%;
+  }
 }
 
 /*# sourceMappingURL=accueil.css.map */

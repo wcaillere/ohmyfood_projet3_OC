@@ -7,4 +7,14 @@
             flex-basis: 100%;
         }
     }
+    .restaurants {
+        &__content {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+    .card-restaurant {
+        width: 49%;
+    }
 }

@@ -1,0 +1,24 @@
+@media (min-width: 993px) {
+    .menu-content {
+        &__body {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+    .menu-step {
+        width: 32%;
+    }
+    .course {
+        &__content {
+            &__text {
+                &__title h3 {
+                    font-size: 16px;
+                }
+                &__precision p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
