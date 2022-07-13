@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./css/default.css ./sass/accueil.scss:./css/accueil.css ./sass/menu.scss:./css/menu.css"
+    "sass": "sass --watch ./sass/main.scss:./css/default.css ./sass/accueil.scss:./css/accueil.css ./sass/menu.scss:./css/menu.css",
+    "prefix": "postcss ./css/default.css --use autoprefixer -d ./css/prefixed/"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "browserslist": "last 4 versions"
 }
