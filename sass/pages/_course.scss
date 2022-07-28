@@ -12,6 +12,9 @@
             animation-delay: 0.2s * $i;
         }
     }
+    &:hover {
+        cursor: pointer;
+    }
     
     &:hover .course__validation {
         width: 75px;

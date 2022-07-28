@@ -97,6 +97,9 @@
 .course--animation10 {
   animation-delay: 2s;
 }
+.course:hover {
+  cursor: pointer;
+}
 .course:hover .course__validation {
   width: 75px;
 }
